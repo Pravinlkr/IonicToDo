@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ToDoTabs",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
