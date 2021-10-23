@@ -12,7 +12,17 @@
         </ion-toolbar>
       </ion-header>
       
-      <ExploreContainer name="Add New Users" />
+      <div class="flex items-center justify-center w-screen">
+        <div class="mt-12 w-screen md:w-4/12">
+          <ion-card>
+            <ion-card-content>
+            <ExploreContainer name="Add New Users" />
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </div>
+      
+      <!-- <ExploreContainer name="Add New Users" /> -->
     </ion-content>
   </ion-page>
 </template>

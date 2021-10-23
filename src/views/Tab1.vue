@@ -12,15 +12,18 @@
         </ion-toolbar>
       </ion-header>
 
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title>Users</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-        <UserList />
-        </ion-card-content>
-      </ion-card>
-      
+      <div class="flex items-center justify-center w-screen">
+        <div class="mt-2 w-screen md:w-5/12">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>Users</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+            <UserList />
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </div>
       <!-- <ExploreContainer name="List Of Users" /> -->
     </ion-content>
   </ion-page>
